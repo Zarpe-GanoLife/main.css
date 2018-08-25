@@ -322,9 +322,9 @@ article img{width:100%}
 
 .texto_2 { font-size: 19px;font-family: graviola_softbold; }
 .texto_1 { font-size: 18px;font-family: graviola_softheavy; color:#929397; line-height: 18px;}
-.texto_3, .texto_3b { font-size: 19px;font-family: graviola_softmedium_italic; color:#929395; line-height: 18px;}
+.texto_3, .texto_3b { font-size: 17px;font-family: graviola_softmedium_italic; color:#929395; line-height: 18px;}
 .texto_4 { font-size: 12px;font-family: graviola_softmedium; color:#999999; line-height: 10px;}
-.texto_4b { font-size: 10px; color:#042842; line-height: 10px; text-decoration:underline}
+.texto_4b { font-size: 10px; font-family: Montserrat;  color:#042842; line-height: 10px; text-decoration:underline}
 .texto_4c, .texto_4c[disabled] { font-size: 10px!important; color:#042842; line-height: 10px; text-decoration:underline; font-family:Montserrat!important;}
 .texto_5 { font-size: 19px;font-family: graviola_softbold; color:#999999;}
 .texto_6 { font-size: 17px;font-family: graviola_softmedium; color:#929397;  }
@@ -367,7 +367,7 @@ article img{width:100%}
 .texto_menu { font-size: 11px;font-family: Montserrat; color:#728191; line-height: 9px!important;}
 .texto_20 { font-size: 11px;font-family: graviola_softmedium; color:#a7a8ac; line-height: 9px!important;}
 .texto_20b { font-size: 11px;font-family: graviola_softmedium; color:#a7a8ac; line-height: 9px!important;}
-.menu_padding { margin-left:18px; float:left; width:100px; margin-right:18px; text-decoration:none; margin-top:10px; margin-bottom:10px;}
+.menu_padding {margin-left:18px;float:left;width:100px;margin-right:18px; text-decoration:none; margin-top:10px; margin-bottom:10px;line-height:1;}
 .menu_padding:hover { text-decoration:none;}
 
 .zarpe_iconomenu { width:24px;}
@@ -1284,7 +1284,8 @@ padding-top:8px;padding-bottom: 8px; padding-left:18px; padding-right:18px;}
 background: #eaebed!important; font-size: 23px;font-family: graviola_softmedium_italic; color:#042743; border-radius:45px;border:0px solid rgba(0,0,0,0);
 padding-left:28px; padding-right:28px; padding-top:9px;padding-bottom: 8px; text-align:center; text-decoration: none!important; display: inline-block;}
 
-.boton_zarpe13 { width:100px; background:#eaebed; border-radius:30px; text-align:center; padding:8px; margin-top:10px; text-decoration: none!important; font-size:13px!important;   }
+.boton_zarpe13 { width:100px; background:#eaebed; border-radius:30px; text-align:center; padding:8px; margin-top:10px; text-decoration: none!important; 
+                 font-size:13px!important; font-family: Montserrat;  }
 .boton_zarpe13:hover, .boton_zarpe13:focus { background: #eaebed!important;  }
 
                               
@@ -1403,9 +1404,10 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 
 .zarpe_ancho_producto { width: 160px;}
 
-.zarpe_imagen  { border:1px solid #d5e9e8; padding:13px; text-decoration:none; }
+
+
 .zarpe_imagen2  { border:1px solid #80c1b9; padding:7px; text-decoration:none; }
-.zarpe_productos_ancho { width:18%!important; float:left; margin:10px; margin-top:-50px;}
+.zarpe_productos_ancho { width:20%!important; float:left; padding:20px;}
 
 
 
@@ -2053,9 +2055,14 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 .popup_contactos { width:86%;}
 .zarpe_tabla { border: 1px solid #ffffff; border-bottom: 1px solid #dedede;}
 
+.div_borde { background:#f7f7f7; border:1px solid #e7e7e7; padding:20px; width:100%; display: inline-block; }
+.zarpe_videos3 { width:25%; max-width:400px; float:left; padding:14px; height: 280px; line-height: 1;} 
+.zarpe_imagen  { border:1px solid #7ebfb9; padding:9px; text-decoration:none; }
+.zarpe_imagen_borde  { border:1px solid #f7f7f7;  }
+.zarpe_videos3:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
+.zarpe_productos_ancho:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
 
-  
-  
+ 
 
 @media (max-device-width: 768px)   {
 
@@ -2187,7 +2194,7 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 .menu_padding2 { margin-left:7px; float:left; width:74px; margin-right:8px; text-decoration:none; margin-top:10px; margin-bottom:10px;}
 .texto_20 { font-size: 12px;font-family: graviola_softmedium; line-height: 9px!important;}
 .texto_20b { font-size: 11px;font-family: graviola_softmedium; line-height: 9px!important;}
-.texto_menu { font-size: 9px;font-family: Montserrat; line-height: 12px!important;}
+.texto_menu { font-size: 9px;font-family: Montserrat; line-height: 10px;}
 
 .ancho_tabla_2 { width:82%; } 
 .banner_4 { background-size: 600px 500px;}
@@ -4811,7 +4818,7 @@ tbody.collapse.in {
   outline: 0; }
 
 .zarpe_dropdown-menu {
-  min-width: 340px!important; 
+  min-width: 240px!important; 
   background-color: rgba(0, 0, 0, 0.0)!important;
   border: 0px solid rgba(0, 0, 0, 0.0)!important;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.0)!important;
