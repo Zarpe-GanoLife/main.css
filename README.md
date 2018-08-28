@@ -325,6 +325,7 @@ article img{width:100%}
 .texto_3, .texto_3b { font-size: 17px;font-family: graviola_softmedium_italic; color:#929395; line-height: 18px;}
 .texto_4 { font-size: 12px;font-family: graviola_softmedium; color:#999999; line-height: 10px;}
 .texto_4b { font-size: 10px; font-family: Montserrat;  color:#042842; line-height: 10px; text-decoration:underline}
+.texto_4d { font-size: 12px; font-family: Montserrat;  color:#042842; line-height: 10px;}
 .texto_4c, .texto_4c[disabled] { font-size: 10px!important; color:#042842; line-height: 10px; text-decoration:underline; font-family:Montserrat!important;}
 .texto_5 { font-size: 19px;font-family: graviola_softbold; color:#999999;}
 .texto_6 { font-size: 17px;font-family: graviola_softmedium; color:#929397;  }
@@ -2057,12 +2058,18 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 
 .div_borde { background:#f7f7f7; border:1px solid #e7e7e7; padding:20px; width:100%; display: inline-block; }
 .zarpe_videos3 { width:25%; max-width:400px; float:left; padding:14px; height: 280px; line-height: 1;} 
+.zarpe_eventos { width:20%; max-width:300px; float:left; padding:14px; height: 280px; line-height: 1;} 
 .zarpe_imagen  { border:1px solid #7ebfb9; padding:9px; text-decoration:none; }
 .zarpe_imagen_borde  { border:1px solid #f7f7f7;  }
 .zarpe_videos3:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
 .zarpe_productos_ancho:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
 
- 
+.zarpe_productos_ancho2 { width:100%;}
+.zarpe_productos_ancho222:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
+.zarpe_eventos:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
+
+
+
 
 @media (max-device-width: 768px)   {
 
