@@ -310,6 +310,8 @@ article img{width:100%}
 .titulo_7c { font-size: 23px;font-family: graviola_softmedium_italic; }
 .titulo_8 { font-size: 24px;font-family: graviola_softbold; color:#052844; letter-spacing: -1px; line-height: 22px;}
 .titulo_8b { font-size: 24px;font-family: Montserrat; color:#052844; letter-spacing: -1px; line-height: 22px;}
+.titulo_8c { font-size: 18px;font-family: Montserrat; color:#052844; letter-spacing: -1px; line-height: 22px;}
+.titulo_8d { font-size: 16px;font-family: Montserrat; color:#052844; }
 .titulo_9, .titulo_9b, .titulo_9c { font-size: 25px;font-family: graviola_softregular; color:#052844; letter-spacing: -1px; line-height: 22px;}
 .titulo_10 { font-size: 27px;font-family: graviola_softheavy; color:#052844; letter-spacing: -1px; }
 .titulo_11 { font-size: 23px;font-family: graviola_softmedium_italic; line-height: 21px;}
@@ -346,7 +348,7 @@ article img{width:100%}
 .texto_17 { font-size: 19px;font-family: graviola_softlight_italic; color:#929395; }
 
 .texto_18 { font-size: 12px!important;font-family: graviola_softmedium; line-height: 8px;}
-.texto_19 { font-size: 13px!important;font-family: graviola_softmedium_italic; line-height: 9px; }
+.texto_19 { font-size: 11px!important;font-family: graviola_softmedium_italic; line-height: 9px; }
 .texto_21 { font-size: 18px;font-family: graviola_softlight; color:#929395; }
 .texto_22 { font-size: 13px;font-family: graviola_softlight; color:#929395; }
 
@@ -2058,7 +2060,8 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 
 .div_borde { background:#f7f7f7; border:1px solid #e7e7e7; padding:20px; width:100%; display: inline-block; }
 .zarpe_videos3 { width:25%; max-width:400px; float:left; padding:14px; height: 280px; line-height: 1;} 
-.zarpe_eventos { width:20%; max-width:300px; float:left; padding:14px; height: 280px; line-height: 1;} 
+.zarpe_eventos { width:20%; max-width:300px; float:left; padding:14px; height: 280px; line-height: 1;}
+.zarpe_descarga { width:16.5%; max-width:250px; float:left; padding:14px; line-height: 1;} 
 .zarpe_imagen  { border:1px solid #7ebfb9; padding:9px; text-decoration:none; }
 .zarpe_imagen_borde  { border:1px solid #f7f7f7;  }
 .zarpe_videos3:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
@@ -2068,8 +2071,8 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 .zarpe_productos_ancho222:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
 .zarpe_eventos:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
 
-
-
+.ancho_div_negocio_1 { width:30%; float:left;}
+.ancho_div_negocio_2 { width:5%; float:left; text-align:center;}
 
 @media (max-device-width: 768px)   {
 
