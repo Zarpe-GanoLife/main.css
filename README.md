@@ -1,8 +1,5 @@
 
 
-
-
-
 article{display:block}
 
 #slider, #slider2, #slider3 {text-align:center}
@@ -1144,8 +1141,9 @@ select.minimal:focus {
 .campo_texto_zarpe_select2 {width:100%;border-radius:40px;border:1px solid #ADAEB0;margin-top:8px;margin-bottom:8px;font-family: graviola_softbold;
                             font-size:19px; background-size: 44px 30px!important; background-position:7px 5px!important;
                      color:#58595B; background-image: url("../../images/icono_colocacion.jpg")!important; background-repeat: no-repeat!important; 
-                     background:#F0F0F0; padding-left:50px; padding-right:20px; padding-top:7px; padding-bottom:5px; height: auto!important;}
+                     background:#F0F0F0; padding-left:50px; padding-right:20px; padding-top:7px; padding-bottom:5px; height: auto!important;}              
                      
+                                         
 .campo_texto_zarpe_2 {width:100%;border-radius:40px;border:1px solid #d9d9d9;margin-top:8px;margin-bottom:8px;font-family: graviola_softbold;
                       font-size:15px;color:#58595B; padding-left:20px; padding-right:20px; padding-top:6px; padding-bottom:5px; background:#ffffff;
                       height:40px;}
@@ -1176,7 +1174,19 @@ select.minimal:focus {
 .campo_texto_zarpe_select5:disabled {width:80px;border-radius:40px;border:0px solid #cdcdcd;
                      color:#58595B; padding-left:20px; padding-right:10px; padding-top:2px; padding-bottom:5px; height:38px;}
                                           
-                                                           
+.campo_texto_zarpe_select6 {width:220px;border:0px solid #ADAEB0;margin-top:12px;margin-bottom:8px; text-align:center; 
+                     color:#6d6e70; padding-left:20px; padding-right:10px; padding-top:6px; padding-bottom:5px; height:38px;
+                      background:#e6e7e9 url("../../images/zarpe_flecha9.png"); 
+                            background-position:
+                            calc(100% - 14px) calc(1em - 9px),
+                            calc(100% - 15px) calc(1em + 2px),
+                            calc(100% - 2.5em) 0.5em; background-repeat: no-repeat;}
+.campo_texto_zarpe_select6:disabled {width:100%;border:0px solid #cdcdcd; text-align:center; 
+                     color:#6d6e70; padding-left:20px; padding-right:10px; padding-top:2px; padding-bottom:5px; height:38px;}
+campo_texto_zarpe_select6 span { text-align:center; }                     
+                     
+                     
+                                                                               
 .check_button_zarpe > input[type=checkbox] + label { padding-left:54px !important; padding-top:15px!important; height:42px; text-align: left;
 background-image: url("../../images/check_box_zarpe_off.png")!important; background-repeat: no-repeat; font-weight:normal; background-size: 52px 46px; }
 .check_button_zarpe {text-align:center; margin-left:14px!important;margin-right:10px !important; }
@@ -1868,7 +1878,7 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 .texto_6 { font-size: 16px;}
 .gratis { width: 100px; margin-top:-22px; margin-left:110px;}
 .margen_der {margin-right:70px; float: right; margin-top:-60px;} 
-.zarpe_productos_ancho { width:17%!important; float:left; margin:9px; margin-top:-50px;}
+.zarpe_productos_ancho { width:20%!important;  }
 
 }
 
@@ -1879,8 +1889,14 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 .titulo_7 {  }
 .texto_16 {  }
 
-.alinear_zarpe2 {       }
 
+.titulo_8b { font-size: 20px; }
+.texto_19 { font-size: 10px!important; }
+.titulo_8c { font-size: 16px; }
+.titulo_4b { font-size: 28px; }
+.texto_17 { font-size: 16px;}
+.texto_8 { font-size: 17px;}
+.texto_11 { font-size: 17px;}
 }
 
 
@@ -1906,8 +1922,9 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 .banner_7 { background-image: url("../../images/zarpe_fondo16.jpg"); width:100%; background-size: 1000px 580px; background-position: -60px -20px;}
 .banner_9 { background-image: url("../../images/zarpe_fondo28.jpg"); background-size: 1300px 650px;  background-position: -260px -110px;}
 .texto_16 { font-size: 20px;line-height: 20px; letter-spacing: -0.5px; }
-.zarpe_productos_ancho { width:17%!important; float:left; margin:9px; margin-top:-50px;}
+.zarpe_productos_ancho { width:20%!important;  }
 
+.zarpe_dropdown-menu { min-width:220px!important;  }
 }
 
 @media (min-width: 1500px) and (max-width: 2000px)  { 
@@ -2063,7 +2080,7 @@ padding-left:19px; padding-right:19px; padding-top:5px;padding-bottom: 4px; text
 .zarpe_eventos { width:20%; max-width:300px; float:left; padding:14px; height: 280px; line-height: 1;}
 .zarpe_descarga { width:16.5%; max-width:250px; float:left; padding:14px; line-height: 1;} 
 .zarpe_imagen  { border:1px solid #7ebfb9; padding:9px; text-decoration:none; }
-.zarpe_imagen_borde  { border:1px solid #f7f7f7;  }
+.zarpe_imagen_borde  { border:1px solid #f7f7f7; }
 .zarpe_videos3:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
 .zarpe_productos_ancho:hover .zarpe_imagen_borde  { border:1px solid #7ebfb9; }
 
@@ -4828,7 +4845,7 @@ tbody.collapse.in {
   outline: 0; }
 
 .zarpe_dropdown-menu {
-  min-width: 240px!important; 
+  min-width: 200px; 
   background-color: rgba(0, 0, 0, 0.0)!important;
   border: 0px solid rgba(0, 0, 0, 0.0)!important;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.0)!important;
